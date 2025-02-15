@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+    background-color: #e3e7e8;
+    color: black;
+    --primary: #ffffff;
+    --sidebar: rgb(37, 99, 235);
+    --sidebar-text: #e3e7e8;
+    }
+}
+@layer base {
+    /* * {
+        @apply border-border
+    } */
+    body {
+        /* @apply bg-background text-foreground */
+        font-family: 'Roboto';
+    }
+}
